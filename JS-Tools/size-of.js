@@ -1,3 +1,4 @@
+//Method to calculate the size (in bytes) of an object
 ﻿function memorySizeOf(obj) {
     var bytes = 0;
 
@@ -27,6 +28,7 @@
         return bytes;
     };
 
+    //Method to determine format (e.g. bytes, kilobytes, etc.)
     function formatByteSize(bytes) {
         if (bytes < 1024) return bytes + " bytes";
         else if (bytes < 1048576) return (bytes / 1024).toFixed(3) + " KiB";
