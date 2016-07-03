@@ -59,7 +59,6 @@
   <ItemGroup>
     <Content Include="object-mapper.js" />
     <Content Include="pub-sub.js" />
-    <Content Include="size-of.js" />
     <Content Include="stop-watch.js" />
     <Content Include="Web.config" />
   </ItemGroup>
