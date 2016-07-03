@@ -1,7 +1,6 @@
 ﻿var app = app || {};
 
 (function () {
-
     /*JavaScript style publish-subscribe implementation as used in the Homeless Referral app*/
     app.eventBus = {
         topics: {},

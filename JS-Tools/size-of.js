@@ -1,5 +1,5 @@
 //Method to calculate the size (in bytes) of an object
-﻿function memorySizeOf(obj) {
+﻿function memorySize(obj) {
     var bytes = 0;
 
     function sizeOf(obj) {
